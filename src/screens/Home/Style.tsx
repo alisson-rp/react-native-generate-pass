@@ -3,21 +3,22 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     appContainer: {
       flex: 1,
-      backgroundColor: '#333333',
+      backgroundColor: '#87CEEB',
       alignItems: 'center',
       justifyContent: 'center',
       
     },
     logoContainer: {
+      width:'80%',
       flexDirection:'column',
-      borderColor: '#ffffff',
+      borderColor: '#FFFF00',
       borderWidth:2,
+      borderRadius: 280,
       justifyContent:'center',
-      alignSelf:'center',
+      alignItems: 'center',
       marginBottom:60,
-      paddingTop:20,
-      paddingBottom:10,
-      backgroundColor:'#4D4D4D'
+      paddingVertical:60,
+      backgroundColor:'#1E90FF'
     },
     inputConteiner: {
       width:'80%',

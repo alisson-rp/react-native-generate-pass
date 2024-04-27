@@ -1,17 +1,17 @@
 import React from 'react';
 import { Image, Text, View } from 'react-native';
 
-import { styles } from '@/components/BatLogo/BatLogoStyles';
-import batLogo from '../../../assets/bat-logo.png'
+import { styles } from '@/components/Logo/LogoStyles';
+import superLogo from '../../../assets/super.png'
 
-export function BatLogo() {
+export function Logo() {
   return (
     <View>
         <Text style={styles.title}>
-            BAT PASS GENERATOR 
+            SUPER PASSWORD 
         </Text>
         <Image 
-            source={batLogo}
+            source={superLogo}
             style={{
                 resizeMode:'contain',
                 height:180

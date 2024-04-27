@@ -1,20 +1,18 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import styles from '@/screens/Home/Style';
-import { BatLogo } from "@/components/BatLogo/BatLogo";
-import { BatTextInput } from "@/components/BatTextInput/BatTextInput";
-import { BatButton } from "@/components/BatButton/BatButton";
+import { Logo } from "@/components/Logo/Logo";
+import { Button } from "@/components/Button/Button";
 
 export default function Home() {
     return(
         <View style={styles.appContainer}>
-            
             <View style={styles.logoContainer}>
-                <BatLogo/>
+                <Logo/>
             </View>
             <View style={styles.inputConteiner}>
-                <BatButton/>
+                <Button/>
             </View>
             
             <StatusBar style="auto" />
